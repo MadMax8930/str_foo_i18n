@@ -1,7 +1,8 @@
 {
-   "introductionJSON": {
+   "subcontentJSON": {
      "title": "Selamat datang ke Sepanduk Makanan Jalanan Max",
-     "question": "Adakah anda memerlukan banner baru untuk perniagaan makanan jalanan anda?"
+     "question": "Adakah anda memerlukan banner baru untuk perniagaan makanan jalanan anda?",
+     "footer": "Terima kasih kerana melawat!"
    },
    "maincontentJSON": {
      "greeting": "Hello, nama saya Max. Saya seorang pembangun web dan pereka perniagaan.",

@@ -2,7 +2,7 @@ import Switcher from './Switcher';
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 bg-blue-400 shadow-md z-50  p-4 w-full">
+    <nav className="sticky top-0 bg-blue-400 shadow-md z-50 p-4 w-full">
       <div className="flex justify-center">
         <Switcher />
       </div>

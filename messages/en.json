@@ -1,7 +1,8 @@
 {
-   "introductionJSON": {
+   "subcontentJSON": {
      "title": "Welcome to Max's Street Food Banners",
-     "question": "Do you need a brand new banner for your street food business?"
+     "question": "Do you need a brand new banner for your street food business?",
+     "footer": "Thank you for visiting!"
    },
    "maincontentJSON": {
      "greeting": "Hello, my name is Max. I am a web developer and business designer",

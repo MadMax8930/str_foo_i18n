@@ -33,7 +33,7 @@ const Switcher = () => {
             <Image 
               src={flag} 
               alt={t(altKey)} 
-              width={32} 
+              width={36} 
               height={16}
               quality={100} 
             />
