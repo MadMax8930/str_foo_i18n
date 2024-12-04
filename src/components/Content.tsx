@@ -5,7 +5,7 @@ const Content = () => {
 
   return (
     <div className="w-full p-4 sm:p-8 lg:p-16">
-      <h2 className="text-xl font-semibold">{t('greeting')}</h2>
+      <p className="sm:text-xl text-sm text-slate-700 font-semibold pb-4 underline">{t('greeting')}</p>
       <div 
         className="prose mx-auto"
         dangerouslySetInnerHTML={{ __html: t('primary') }}
