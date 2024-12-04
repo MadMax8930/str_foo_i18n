@@ -1,0 +1,22 @@
+{
+   "introductionJSON": {
+     "title": "Selamat datang ke Sepanduk Makanan Jalanan Max",
+     "desc": "Ini adalah halaman utama.",
+     "question": "Adakah anda memerlukan banner baru untuk perniagaan makanan jalanan anda?"
+   },
+   "maincontentJSON": {
+     "greeting": "Hello, nama saya Max. Saya seorang pembangun web dan pereka perniagaan.",
+     "primary": "",
+     "secondary": ""
+   },
+   "languagesJSON": {
+     "English": "Inggeris",
+     "Russian": "Rusia",
+     "Malay": "Melayu",
+     "Thai": "Thai"
+   },
+   "seoJSON": {
+      "websiteTitle": "Rekaan untuk perniagaan anda"
+   }
+}
+ 
