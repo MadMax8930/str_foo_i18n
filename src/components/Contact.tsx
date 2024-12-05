@@ -46,7 +46,7 @@ const Contact = () => {
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden sm:pb-4 pb-16'>
-      <div className='flex-[1] bg-black-100 p-8 rounded-2xl'>
+      <div className='flex-[1] bg-black-100 px-6 pb-4 pt-8 sm:pb-16 sm:px-16 sm:pt-4 rounded-2xl'>
         <p className="sm:text-[18px] text-[14px] text-primary uppercase tracking-wider">Get in touch</p>
         <h3 className="text-secondary font-bold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Contact.</h3>
 
