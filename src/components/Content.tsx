@@ -4,8 +4,9 @@ const Content = () => {
   const t = useTranslations('maincontentJSON');
 
   return (
-    <div className="w-full p-4 sm:p-8 lg:p-16 flex-grow">
-      <p className="sm:text-xl text-sm text-slate-700 font-semibold pb-4 underline">{t('greeting')}</p>
+    <div className="w-full px-4 sm:px-8 lg:px-16 pt-6 sm:pt-12 flex-grow">
+      <h1 className="sm:mb-12 mb-6 text-center text-lg sm:text-2xl text-gray-700 font-extrabold">{t('question')}</h1>
+      <p className="sm:text-xl text-md text-slate-700 font-semibold pb-4 underline">{t('greeting')}</p>
       <div 
         className="prose mx-auto"
         dangerouslySetInnerHTML={{ __html: t('primary') }}
