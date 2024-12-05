@@ -10,12 +10,14 @@ export default function Index() {
 
   return (
     <Layout title={t('title')}>
-      <Navbar />
-      <div className="text-center mt-6 px-4">
-        <h2 className="mt-4 text-gray-700 font-extrabold">{t('question')}</h2>
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <div className="text-center mt-4 px-4">
+          <h2 className="mt-4 text-gray-700 font-extrabold">{t('question')}</h2>
+        </div>
+        <Content />
+        <Footer />
       </div>
-      <Content />
-      <Footer />
     </Layout>
   );
 }

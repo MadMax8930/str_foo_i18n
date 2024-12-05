@@ -14,6 +14,7 @@ export default function Layout({children, title}: Props) {
     <>
       <Head>
         <title>{[title, t('websiteTitle')].join(' - ')}</title>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <div className='min-h-screen flex flex-col items-center bg-gray-100'>
         {children}
