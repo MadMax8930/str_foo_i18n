@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Content from '@/components/Content';
 import Footer from '@/components/Footer';
 import Contact from '@/components/Contact';
+import Gallery from '@/components/Gallery';
 
 export default function Index() {
   const t = useTranslations('subcontentJSON');
@@ -14,6 +15,7 @@ export default function Index() {
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <Content />
+        <Gallery />
         <Contact />
         <Footer />
       </div>
