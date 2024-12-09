@@ -13,9 +13,8 @@ const Gallery = () => {
             <Image
               src={banner}
               alt={`Banner ${index + 1}`}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg shadow-md border-[3px] border-primary"
+              fill
+              className="rounded-lg shadow-md border-[3px] border-[#42A5F5]"
             />
           </div>
         ))}
